@@ -23,7 +23,7 @@ class MainKtTest {
             paymentSystems = paymentSystems
         )
         // assert
-        assertEquals(3500, result)
+        assertEquals(3000, result)
     }
     @Test
     fun calculateTest_Visa() {
